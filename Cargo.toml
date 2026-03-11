@@ -1,12 +1,13 @@
 [package]
 name = "rldd_minimal"
-version = "1.1.0"
+version = "1.1.1"
 edition = "2024"
 description = "Minimalistic recursive ELF dependency resolver for Linux, BSDs, and Solaris."
 authors = ["mxnt <m10ferrari1200@gmail.com>"]
 license = "MIT"
-repository = "https://github.com/LinuxDicasPro/rldd_minimal"
-
+documentation = "https://docs.rs/rldd_minimal/"
+homepage = "https://github.com/LinuxProativo/rldd_minimal"
+repository = "https://github.com/LinuxProativo/rldd_minimal"
 readme = "README.md"
 keywords = ["elf", "ldd", "rldd", "rust", "linux"]
 categories = ["development-tools"]
