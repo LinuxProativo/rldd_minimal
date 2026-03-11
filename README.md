@@ -7,9 +7,9 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/Platform-POSIX-FCC624?&logo=linux&style=flat-square"/>
-    <img src="https://img.shields.io/github/actions/workflow/status/LinuxProativo/ALPack/rust.yml?label=Test&style=flat-square&logo=github"/>
+    <img src="https://img.shields.io/github/actions/workflow/status/LinuxProativo/rldd_minimal/rust.yml?label=Test&style=flat-square&logo=github"/>
     <img src="https://img.shields.io/badge/RustC-1.85+-orange?style=flat-square&logo=rust"/>
-    <img src="https://img.shields.io/github/languages/code-size/LinuxProativo/ALPack?style=flat-square&logo=rust&label=Code%20Size"/>
+    <img src="https://img.shields.io/github/languages/code-size/LinuxProativo/rldd_minimal?style=flat-square&logo=rust&label=Code%20Size"/>
 </p>
 
 ## 🔍 Overview
