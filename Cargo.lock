@@ -66,7 +66,7 @@ dependencies = [
 
 [[package]]
 name = "rldd_minimal"
-version = "1.1.0"
+version = "1.1.1"
 dependencies = [
  "glob",
  "goblin",
