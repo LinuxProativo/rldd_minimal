@@ -1,0 +1,18 @@
+Tue Mar 10 19:45:25 -03 2026:
+    - Rename project from rldd_rex to rldd_minimal
+    - Refactor core logic for better modularity
+    - General code review and optimization
+    - Add comprehensive Rustdoc documentation
+Sun Dec 14 15:07:02 -03 2025:
+    - Fix dependency resolution for musl-based binaries
+    - Improve musl dynamic interpreter detection logic
+Mon Nov 10 20:45:59 -03 2025:
+    - Optimize dependency lookup performance
+Mon Nov 03 00:06:50 -03 2025:
+    - Fix visibility: expose required public functions
+    - Update README with usage examples and technical details
+Sun Nov 02 20:36:13 -03 2025:
+    - Add cross-platform support (Linux, BSD, Solaris)
+    - Implement deep recursive dependency scanning
+    - Add feature gate for LD_LIBRARY_PATH environment variable
+    - Add architecture and ELF type identification

@@ -1,0 +1,23 @@
+[package]
+name = "rldd_minimal"
+version = "1.1.0"
+edition = "2024"
+description = "Minimalistic recursive ELF dependency resolver for Linux, BSDs, and Solaris."
+authors = ["mxnt <m10ferrari1200@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/LinuxDicasPro/rldd_minimal"
+
+readme = "README.md"
+keywords = ["elf", "ldd", "rldd", "rust", "linux"]
+categories = ["development-tools"]
+
+[dependencies]
+goblin = { version = "0.10", default-features = false, features = ["elf32", "elf64", "endian_fd"]}
+memmap2 = { version = "0.9", default-features = false }
+glob = "0.3"
+
+[features]
+enable_ld_library_path = []
+
+[dev-dependencies]
+rldd_minimal = { path = ".", features = ["enable_ld_library_path"] }
